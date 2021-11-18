@@ -1,6 +1,6 @@
 # Things you should know
 
-## What is a Semantic Object?
+## What is WorldObjects?
 **WorldObjects** represents Entities Objects such as a Customer, Invoice or Citizen Card, in a semantic way.
 
 Using **WorldObjects**, you can bundle applications that reflect a specific scenario. They allow you to refer to objects in a standardized way, abstracting from concrete implementations of these Objects. 
@@ -47,6 +47,8 @@ If login successfully, source folders should appear:
 <img src="resources/SourceView.png" width="25%" height="25%">
 
 # DocDigitizer
-For more information about DocDigitizer and other produts and services provided, please consult our website:
-[DocDigitizer](https://www.docdigitizer.com/)
+For more information about DocDigitizer and other produts and services provided, please consult our website:  
+[DocDigitizer](https://www.docdigitizer.com/)  
+[DocDigitizer - WorldObjects](https://worldobjects.docdigitizer.com)  
 [DocDigitizer - Developers Portal](https://developers.docdigitizer.com)
+
