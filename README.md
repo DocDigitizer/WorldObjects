@@ -1,14 +1,19 @@
 # Things you should know
 
 ## What is WorldObjects?
-**WorldObjects** represents Entities Objects such as a Customer, Invoice or Citizen Card, in a semantic way.
+At [DocDigitizer](https://www.docdigitizer.com/) we aim to unburden people from robotic work, including developers.
 
-Using **WorldObjects**, you can bundle applications that reflect a specific scenario. They allow you to refer to objects in a standardized way, abstracting from concrete implementations of these Objects. 
+**DocDigitizer WorldObjects** is a development platform that allows developers to leverage or build a myriad of human semantic objects. With **WorldObjects** you actually create native .Net code, leveraging the power of the .Net framework. WorldObjects also may be bundled with data. It means for developers thousands of hours saved both in structuring common objects like countries, languages or custom objects like ISIN objects, but also managing the data load of those objects.
 
+With **WorldObjects** you can endless navigating in strong type mode during code development.
+
+WorldObjects eliminates the need for developers to reinvent the wheel every time they create an application. With WorldObjects the common human concepts like countries, addresses, document types or id cards are already available. DocDigitizer WorldObjects represents Entities Objects such as a Customer, an Invoice or a Citizen Card, in a semantic way. You can use global WorldObjects from the global repository or create your own objects. Read the technical documentation in [WorldObjects developers portal](https://developers.docdigitizer.com/v2.0/docs/docdigitizer-worldobjects-reference-guide) .
+
+Using WorldObjects, you can bundle applications that reflect a specific scenario. They allow you to refer to objects in a standardized way, abstracting from concrete implementations of these Objects.
 ## WorldObjects in DocDigitizer
-**DocDigitizer** offers a framework and a scalable platform, **DocDigitizer WorldObjects**,  where you can create your Entities using semantic language provided by this framework, accessing and managing this Entities using functionalities provided by the platform.
+**DocDigitizer** offers a framework and a scalable platform, **DocDigitizer WorldObjects**,  where you can create your Entities using semantic language provided by this framework and dispose and managed this Entities using functionalities provide by the platform.
 
-**DocDigitizer WorldObjects** provides semantic language to help create and define your Business Objects, adding properties that define each object and index mechanisms which can be helpful to support semantic query processing.
+**DocDigitizer WorldObjects** provides semantic language to help create and define your Business Objects, adding properties that define each object, index mechanisms which can be helpful to support semantic query processing.
 
 You can also use semantic objects shipped by with **DocDigitizer WorldObjects**.
 
@@ -51,4 +56,3 @@ For more information about DocDigitizer and other produts and services provided,
 [DocDigitizer](https://www.docdigitizer.com/)  
 [DocDigitizer - WorldObjects](https://worldobjects.docdigitizer.com)  
 [DocDigitizer - Developers Portal](https://developers.docdigitizer.com)
-
