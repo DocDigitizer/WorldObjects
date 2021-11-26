@@ -7,10 +7,9 @@ At [DocDigitizer](https://www.docdigitizer.com/) we aim to unburden people from 
 
 With **WorldObjects** you can endless navigate in strong type mode during code development.
 
-Example:
-
-&nbsp;&nbsp;&nbsp;&nbsp;***var customerIntlDialCode = document.Invoice.Customer.Address.ZipCode.Country.IntlDialCode;***
-
+```ruby
+var customerIntlDialCode = document.Invoice.Customer.Address.ZipCode.Country.IntlDialCode;
+```
 In this example, we have a document (like an invoice) that has a customer address. Although international phone dial code is not mentioned in the document, it can seamlessly be retrieved by the framework through underlying Catalogs (ZipCode and Country for this case). Imagine how many tables, sql queries and alike you'd need to run this simple line of code in your current projects.
 
 WorldObjects eliminates the need for developers to reinvent the wheel every time they create an application. With WorldObjects the common human concepts like countries, addresses, document types or id cards are already available. DocDigitizer WorldObjects represents Entity Objects such as a Customer, an Invoice or a Citizen Card, in a semantic way. You can use global WorldObjects from the global repository or create your own objects. Read the technical documentation in [WorldObjects developers portal](https://developers.docdigitizer.com/v2.0/docs/docdigitizer-worldobjects-reference-guide) .
