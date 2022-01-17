@@ -28,10 +28,27 @@ You can also use predefined semantic objects shipped with **DocDigitizer WorldOb
 **DocDigitizer WorldObjects** provide functionalities where you can associate the "data domain" related to each object, this is, associate list of values like "list of countries", which we refer as Catalogs 
 
 This Catalogs can be "managed":
-* **Local Catalogs** managed "client-side", where the data can be stored “in code". 
-* **Remote Catalogs** managed "server-side", where the data can be store in Database or can be obtained invoking Services/API.
+* **Local Catalogs** managed "client-side", where the data can be stored in “in code" (DLL Resource). 
+* **Remote Catalogs** managed "server-side", access by an API, where the data can be store in Database or "DLL Resource".
 
-You can also use Catalogs (and their related semantic objects) shipped with **DocDigitizer WorldObjects**.
+You can also use Catalogs (and is related semantic objects) shipped by with **DocDigitizer WorldObjects**.
+
+## Validaters in DocDigitizer WorldObjects
+**Validators** give the ability to create and define syntactic and semantic validation rules
+
+This means the ability to validate if an identifier is valid. 
+For instance, ability to validate if **fiscal number** is valid in a certain country, our **zip code**.
+
+Validators are base on expressions, where you can define expressions not only to create validation rules but also for instance define default values.
+
+The **DocDigitizer** offer some Validators but you can extend them, creating your own **Validators**.
+
+## Formatters in DocDigitizer WorldObjects
+**Formatters** give the ability to format values/text.
+
+For instance formatting the values **IBAN** to be return by an API or the will be show webpage.
+
+Like the previous cases mentions, **DocDigitizer** offer some **Formatters** but you can extend them, creating your own **Formatters**.
 
 For more information, please consult our website where you can find guidelines, tutorials, among other information that can help you get started.
 [Guidelines](https://developers.docdigitizer.com/v2.0/docs/getting-started-with-docdigitizer-worldobjects)
